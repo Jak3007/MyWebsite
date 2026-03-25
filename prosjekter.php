@@ -3,7 +3,8 @@
 <head>
     <title>Prosjekter</title>
     <?php include 'include/head.php'; ?>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style/Style.css">
+    <link rel="stylesheet" href="style/Style_pr.css">
 </head>
 <body class="">
     <header>

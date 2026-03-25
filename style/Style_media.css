@@ -1,0 +1,96 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "yt-header om-meg-header"
+        "yt-content om-meg-content"
+        "spotify om-meg-content";
+    grid-template-columns: 5fr 3fr;
+    background-color: black;
+    gap: 3px;
+    padding: 5px;
+}
+.container section {
+    background-color: #183814;
+    padding: 10px;
+}
+
+.container section.yt-header {
+    grid-area: yt-header;
+    text-align: center;
+}
+.container section.yt-content {
+    grid-area: yt-content;
+}
+.container section.spotify {
+    grid-area: spotify;
+}
+
+.container section.om-meg-header {
+    grid-area: om-meg-header;
+    text-align: center;
+}
+.container section.om-meg-content {
+    grid-area: om-meg-content;
+}
+
+.container-yt-vids {
+    display: grid;
+    grid-template-areas: 
+    "short1 short2 short3";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    gap: 3px;
+    padding: 5px;
+}
+
+.container section {
+    background-color: #183814;
+    padding: 10px;
+}
+
+.container section.short1 {
+    grid-area: short1;
+}
+
+.container section.short2 {
+    grid-area: short2;
+}
+    
+.container section.short3 {
+    grid-area: short3;
+}
+
+.container-spotify-history {
+    display: grid;
+    grid-template-areas: 
+    "song1"
+    "song2"
+    "song3"
+    "song4"
+    "song5";
+    grid-template-rows: auto;
+    background-color: black;
+    gap: 3px;
+    padding: 5px;
+}
+
+.container section {
+    background-color: #183814;
+    padding: 10px;
+}
+
+.container section.song1 {
+    grid-area: song1;
+}
+.container section.song2 {
+    grid-area: song2;
+}
+.container section.song3 {
+    grid-area: song3;
+}
+.container section.song4 {
+    grid-area: song4;
+}
+.container section.song5 {
+    grid-area: song5;
+}
