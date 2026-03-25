@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mine Fag</title>
+</head>
+<body>
+    <h1>Mine fag</h1>
+
+    <section class="sec1">
+        <button onclick="opg1()">Mine Fag</button>
+        <button onclick="clear_array()">Reset Liste</button>      
+        <p id="opg1_fagListe"></p>                           
+    </section>
+
+    <section class="sec2">
+        <input type="text" id="nyttFag" placeholder="Legg til Valgfri Fag her">
+        <button onclick="opg2(nyttFag.value)">Legg til Fag</button> 
+        <button onclick="opg3()">Fjern et fag</button>
+        <p id="opg2_fagListe"></p>
+    </section>
+
+    <section class="sec3">
+        <input type="text" id="sok" placeholder="Start Med Stor Bukstav">
+        <button onclick="opg4(sok.value)">Søk på fag</button>
+        <p id="opg4_sok"></p>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

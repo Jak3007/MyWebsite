@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;         /* Center items horizontally */
+    flex-direction: column;      /* Stack items vertically */
+    height: 100vh;               /* Full viewport height */
+    margin: 0;                   /* Remove default body margin */
+    padding-top: 20px;           /* Optional: Add some padding from the top */
+    background-color: aliceblue;
+}
+
+table {
+    border: 5px solid;
+    width: 35%;
+    padding-bottom: 10px;
+}
+
+
+#Kvitering {
+    text-align: left;
+    font-size: xx-large;
+}
+
+th {
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    width: 10%;
+}
+
+td {
+    text-align: center;
+    background-color: greenyellow;
+}

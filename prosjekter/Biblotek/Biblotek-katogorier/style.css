@@ -1,0 +1,31 @@
+body {
+    background-image: url(Img/bok_bilde_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    text-decoration: none;
+    color: burlywood;
+    background-color: burlywood;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.biblotek-hp {
+    float: left;
+    color: burlywood;
+}
+
+
+.Fyresdal-Kommunevåpen{
+    float: left;
+}
+
+.Kommune-Navn {
+    float: left;
+    margin-left: 1%;
+    color: black;
+}
+

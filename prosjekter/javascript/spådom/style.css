@@ -1,0 +1,25 @@
+
+
+
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+}

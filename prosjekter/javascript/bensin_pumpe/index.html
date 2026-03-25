@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Bensinpumpe oppgave </h1>
+
+    <p>Skriv inn hvor mye bensin skal du fylle</p>
+
+    <button value="20" id="bensin_pris">20kr per liter</button> <br>
+
+    <input type="number" id="pumpe" placeholder="Hvor mange liter blir fyllt?">
+
+    <button onclick="bensin_mengde(pumpe.value, bensin_pris.value)"> beregn </button>
+    <p id="pumpe_resultat">Svar vises her:</p>
+
+
+    <table id="dotted">
+        <tr>    <th colspan="2" id="Kvitering">Kviteringen din:         </th>   </tr>
+        <tr>    <th>Liter:  </th>      <td id="liter">  </td>   </tr>
+        <tr>    <th>Pris:   </th>      <td id="pris">   </td>   </tr>
+        <tr>    <th>Rabatt: </th>      <td id="rabatt"> </td>   </tr>
+        <tr>    <th>Sum:    </th>      <td id="sum">    </td>   </tr>   
+        <tr>    <th>Mva:    </th>      <td id="mva">    </td>   </tr>
+
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

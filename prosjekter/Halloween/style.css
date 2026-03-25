@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #3b013b;
+    color: #15FF9D;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    width: 90%;
+}
+
+.overskrift {
+    margin: 0%;
+    margin-left: 10%;
+    font-size: 300%;
+}
+
+article {
+    background-color: #e0a72b;
+    margin: 20px;
+}
+
+.art_1 {
+    border: 1px solid #3b013b;
+    width: 70%;
+    min-width: 200px;
+    max-width: 700px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.art_2 {
+    border: 10px dotted;
+    width: 35%;
+    min-width: 200px;
+    max-width: 700px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fig_1 , .fig_2 {
+    border: 1px solid black;
+    width: 46%;
+    margin: 10px;
+}
+
+.fig_3 {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 1px solid black;
+}
+
+.fig_4 {
+    border: 1px solid;
+    margin: 10px;
+}
+
+.fig_5 {
+    border: 1px solid;
+    margin: 10px;
+}
+
+
+.mg20 {
+    margin-left: 25px;
+}

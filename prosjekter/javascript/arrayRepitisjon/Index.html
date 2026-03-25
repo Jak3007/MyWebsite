@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Array repitisjon opgaver</h2>
+    </header>
+    <main>
+        <section>
+            <section id="list">
+                <h2>Liste 1:</h2>
+                <p id="dyrArray"></p>
+            </section>
+            <section id="input">
+                <input type="text" id="DyrInput"> <button onclick="leggTilDyr(DyrInput.value)">Legg Til</button> <button onclick="fjernDyr()">Fjern Siste</button>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Handleliste</h2>
+                <p id="handleListeArray"></p>
+            </section>
+            <section>
+                <button onclick="leggtilMatvare()">Legg til Matvare</button> <button onclick="fjernMatvare()">Fjern Matvare</button>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Gjesteliste</h2>
+                <p id="gjestelisteArray"></p>
+            </section>
+            <section>
+                <button onclick="leggtilgjest()">Legg til Gjesteliste</button> <button onclick="fjernGjest()">Fjern Gjest</button>
+            </section>
+        </section>
+        <section>
+            <h2>Reset Alle Listene</h2>
+            <button id="resetAll()">Reset alle Listene</button>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="Script.js"></script>
+</body>
+</html>

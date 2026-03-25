@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzasjappa</title>
+</head>
+<body>
+    <header>
+        <!-- <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="meny.html">Meny</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+
+    <main>
+        <h1>Den Lokale Pizzasjappa</h1>
+
+        <section class="meny">
+            <table>
+                <tr><td>    <h2>Pizza:                 </h2>    </td>  <td>    <h2>Drikke:                   </h2>  </td>                                                                       </tr>
+                <tr><td>    <p id="pizzaerHTML"       ></p>     </td>  <td>    <p id="drikkerHTML"          ></p>   </td>   <td>    <button onclick="skrivUtPris()">Pris    </button>   </td>   </tr>
+                <tr><td>    <p id="antallPizzaerHTML" ></p>     </td>  <td>    <p id="antallDrikkerHTML"    ></p>   </td>   <td>    <button onclick="bestill()"  >Bestill   </button>   </td>   </tr>
+                <tr><td>    <p id="pizzaPrisHTML"     ></p>     </td>  <td>    <p id="drikkePrisHTML"       ></p>   </td>   <td>    <p id="tilSammenHTML"        >          </p>        </td>   </tr>
+            </table>
+            <p style="font-size: small;">*Alle pizzaene har gluten og melk</p>
+            <p id="kvitteringHTML"></p>
+        </section>
+
+    <footer>
+        <p>© 2025 Pizzasjappa</p> 
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+
+
+body {
+    background-image: url(Img/bok_bilde_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    text-decoration: none;
+    color: burlywood;
+    background-color: burlywood;
+}
+
+
+.Fyresdal-Kommunevåpen{
+    float: left;
+    margin-left: 10%;
+}
+
+.Kommune-Navn {
+    float: left;
+    margin-left: 1%;
+    color: black;
+}
+
+h1 {
+    margin-left: 12.5%;
+}
+
+h4 {
+    margin-left: 12.5%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 12.5% 15% 5% 15% 5% 15% 5% 15% 12.5%;
+}
+
+.item-1 {
+    background-color:rgba(69, 255, 95, 0.25);      
+    grid-row-start: 1;            
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-size-adjust: 250px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.item-2 {
+    background-color: rgba(69, 255, 95, 0.25);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    text-align: center;
+    align-content: center;
+}         
+
+.item-3 {
+    background-color: rgba(69, 255, 95, 0.25);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    text-align: center;
+    align-content: center;
+}
+
+.item-4 {
+    background-color: rgba(69, 255, 95, 0.25);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 8;
+    grid-column-end: 8;
+    text-align: center;
+    align-content: center;
+}
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input Oppgaver</h1>
+
+    <h2>Oppgave 1</h2>
+
+    <input type="text" id="navn" placeholder="Skriv inn ditt navn her">
+    <button onclick="opp1(navn.value)"> Trykk her </button>
+    <p id="navn_utskrift"></p>
+
+    <h2>Oppgave 2</h2>
+
+    <input type="text" id="tid" placeholder="Skriv Inn året du ble født">
+    <button onclick="opp2(tid.value, navn.value)">Trykk for alder</button>
+    <p id="tid_utskrift"></p>
+
+    <h2>Oppgave 3</h2>
+    <input type="number" id="num1" placeholder="Legg til et tall">
+    <input type="number" id="num2" placeholder="Legg til et annet tall">
+    <button onclick="opp3(num1.value, num2.value)">Legg til 2 tall</button>
+    <p id="add_utskrift"></p>
+
+    <h2>Oppgave 4</h2>
+    <input type="number" id="celsius" placeholder="Skriv graden i celsius">
+    <button onclick="opp4(celsius.value)">Celsius til fahrenheit</button>
+    <p id="fahrenheit_utskrift"></p>
+
+    <h2>Oppgave 5</h2>
+
+    <input type="number" id="lengde" placeholder="Legg til lengde">
+    <input type="number" id="bredde" placeholder="Legg til bredde">
+    <button onclick="opp5(lengde.value, bredde.value)">Regn ut omkrets på et rektangel</button>
+    <p id="rektangel_utskrift"></p>
+
+    <h2>Oppgave 6</h2>
+    <input type="text" id="navn_hilsen" placeholder="Skriv inn ditt navn her">
+    <button onclick="opp6(navn_hilsen.value)">Hilsen Roulette</button>
+    <p id="hilsen_utskrift"></p>
+
+    <h2>Oppgave 7</h2>
+    <input type="number" id="radius" placeholder="Regn ut omkrets med radius">
+    <button onclick="opp7(radius.value)">Beregn</button>
+    <p id="omkrets_utskrift"></p>
+
+    <h2>Oppgave 8</h2>
+    <input type="number" id="pris" placeholder="Prisen">
+    <input type="number" id="prosent" placeholder="prosenten">
+    <button onclick="opp8(pris.value, prosent.value)">Regn ut rabbat</button>
+    <p id="rabbat_utregning"></p>
+
+
+<script src="script.js"></script>
+</body>
+</html>
