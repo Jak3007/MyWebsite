@@ -18,12 +18,12 @@
             <section class="yt-content">
                 <h3>Min YouTube kanal</h3>
                 <a href="https://youtube.com/@tastytoaster8"><img src="img/yt_kanal.png" alt="yt-kanal"></a>
-                <h3>Noen av video-ene mine:</h3>
+                <h3>Noen av video-ene mine*:</h3>
                 <p>*alle videoene er 2 år gamle</p>
                 <section class="container-yt-vids">
                     <section class="short1">
                         <p>Denne har 5.8 tusen seere</p>
-                        <iframe width="350" height="710" src="https://www.youtube.com/embed/rhQF6hcwTrc" title="First Game With Clove Is An Ace Short #valorant #valorantclips #valorantace  #valorantshorts" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="350" height="710" src="https://www.youtube.com/embed/rhQF6hcwTrc" title="First Game With Clove Is An Ace Short #valorant #valorantclips #valorantace  #valorantshorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </section>
                         
                         <section class="short2">
