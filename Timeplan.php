@@ -1,19 +1,13 @@
 <html lang="nb">
 
 <head>
-    <title>Timeplan</title>
-    <meta charset="UTF-8">
+    <title>Timeplan VG1</title>
+    <?php include 'include/head.php'; ?>
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 
-    <nav class="container-nav">
-        <a href="index.html"        id="item-1-hp">  <font style="font-size: xx-large;">    Hjem        </font>  </a>
-        <a href="prosjekter.html"   id="item-2-hp">  <font style="font-size: xx-large;">    Prosjekter  </font>  </a>
-        <a href="cv.html"           id="item-3-hp">  <font style="font-size: xx-large;">    CV          </font>  </a>
-        <a href="Timeplan.html"     id="item-4-hp">  <font style="font-size: xx-large;">    Timeplan    </font>  </a>
-        <a href="media.html"        id="item-5-hp">  <font style="font-size: xx-large;">    Media       </font>  </a>
-    </nav>  
+    <?php include 'include/nav.php'; ?> 
     
     <h1> Timeplan For 1IKC</h1>
     <img src="img/Klasserom.jpg" alt="Klasserom bilde" height="auto" width="800"> 
