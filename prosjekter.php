@@ -20,7 +20,7 @@
         <nav class="container-pr-nav">
             <a href="prosjekter/barnebok/index.html"                    class="pr-farge" id="pri-pr-1"    target="_blank">    Barnebok            </a>
             <a href="prosjekter/javascript/pizzahjornet/index.html"     class="pr-farge" id="pri-pr-2"    target="_blank">    Pizza Hjørnet       </a>
-            <a href="prosjekter/javascript/terning oppgave/index.html"  class="pr-farge" id="pri-pr-3"    target="_blank">    Terning Spill       </a>
+            <a href="prosjekter/crm-system/index.php"                   class="pr-farge" id="pri-pr-3"    target="_blank">    CRM-System (VG2)    </a>
             <a href="prosjekter/javascript/bensin_pumpe/index.html"     class="pr-farge" id="pri-pr-4"    target="_blank">    Bensinpumpe         </a>
             <a href="prosjekter/Biblotek/Biblotek.html"                 class="pr-farge" id="pri-pr-5"    target="_blank">    Biblotek Oppgave    </a>
         </nav>
@@ -39,6 +39,7 @@
             <p><a href="prosjekter/Halloween/Halloween.html"               class="pr-farge"    target="_blank">    Halloween Oppgave       </a></p>
             <p><a href="prosjekter/javascript/hello world/index.html"      class="pr-farge"    target="_blank">    Hello World Javascript  </a></p>
             <p><a href="prosjekter/javascript/testside/index.html"         class="pr-farge"    target="_blank">    Testside i Javascript   </a></p>
+            <p><a href="prosjekter/javascript/terning oppgave/index.html"  class="pr-farge"    target="_blank">    Terning Spill           </a></p>
             <p><a href="prosjekter/javascript/funksjoner/Index.html"       class="pr-farge"    target="_blank">    Input i Javascript      </a></p>
             <p><a href="prosjekter/javascript/bensin_pumpe/index.html"     class="pr-farge"    target="_blank">    Bensinpumpe oppgave     </a></p>
             <p><a href="prosjekter/javascript/spådom/index.html"           class="pr-farge"    target="_blank">    Spådom oppgave          </a></p>
