@@ -3,7 +3,7 @@
 <head>
     <title>Min nettside</title>
     <?php include 'include/head.php'; ?>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/Style.css">
 </head>
 <body>
     <header>

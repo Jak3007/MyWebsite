@@ -3,7 +3,7 @@
 <head>
     <title>Timeplan VG1</title>
     <?php include 'include/head.php'; ?>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style/Style.css">
 </head>
 <body>
 

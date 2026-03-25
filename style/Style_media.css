@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "yt-header om-meg-header"
+        "yt-content om-meg-content";
+    grid-template-columns: 5fr 3fr;
+    background-color: black;
+    gap: 3px;
+    padding: 5px;
+}
+.container section {
+    background-color: #183814;
+    padding: 10px;
+}
+
+.container section.yt-header {
+    grid-area: yt-header;
+    text-align: center;
+}
+.container section.yt-content {
+    grid-area: yt-content;
+}
+
+.container section.om-meg-header {
+    grid-area: om-meg-header;
+    text-align: center;
+}
+.container section.om-meg-content {
+    grid-area: om-meg-content;
+}
+
+.container-yt-vids {
+    display: grid;
+    grid-template-areas: 
+    "short1 short2 short3";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    gap: 3px;
+    padding: 5px;
+}
+
+.container section {
+    background-color: #183814;
+    padding: 10px;
+}
+
+.container section.short1 {
+    grid-area: short1;
+}
+
+.container section.short2 {
+    grid-area: short2;
+}
+    
+.container section.short3 {
+    grid-area: short3;
+}
